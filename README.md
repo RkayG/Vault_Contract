@@ -38,6 +38,11 @@ This is a simple vault contract that allows a user deposit funds and set a benef
 ## Hardhat Configuration
 * [config](./hardhat.config.js): Configuration file for hardhat project. Fetches sepolia `API_URL` and metamask `PRIVATE_KEY`from .env file. Also sets network to Sepolia testnet for deplyment 
 
+## env file
+Create a .env file, include below variables, and replace their values with corresponding details:
+`API_URL`= `<YOUR SEPOLIA API URL>`
+`PRIVATE_KEY` = `<YOUR WALLET PRIVATE KEY>`
+
 ## Contract Address:
 This contract is deployed to Sepolia testnet. Contract address: `0x5FbDB2315678afecb367f032d93F642f64180aa3`
 
