@@ -9,7 +9,7 @@ This is a simple vault contract that allows a user deposit funds and set a benef
 | Function        | Purpose
 | --------------- | ---------------------
 | `deposit`       | Parameters: beneficiary, unlockTime. Allows caller to deposit funds and assign a beneficiary as well as an unlock time to the funds.
-| `clsim`         | Ensures caller is beneficiary and allows them to claim deposited funds, as long has the unlock timehas been reached.
+| `claim`         | Ensures caller is beneficiary and allows them to claim deposited funds, as long has the unlock timehas been reached.
 | `getBeneficiary`| Fetches beneficiary assigned to deposited funds.
 | `getGrantInfo`  | Fetches details of the deposited funds, i.e. donor, beneficiary, amount, unlock time, and claimed status.
 
